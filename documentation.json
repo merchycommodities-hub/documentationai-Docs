@@ -1,0 +1,125 @@
+{
+  "name": "Merchy Commodities",
+  "colors": {
+    "light": {
+      "brand": "#007bff"
+    },
+    "dark": {
+      "brand": "#51A3FB"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "home"
+              }
+            ]
+          },
+          {
+            "group": "Catalog",
+            "icon": "grid",
+            "pages": [
+              {
+                "title": "Catalog",
+                "path": "catalog",
+                "icon": "folder"
+              },
+              {
+                "title": "Quality and Specs",
+                "path": "quality-and-specs",
+                "icon": "file-text"
+              }
+            ]
+          },
+          {
+            "group": "Operations",
+            "icon": "settings",
+            "pages": [
+              {
+                "title": "Ordering and Shipping",
+                "path": "ordering-and-shipping",
+                "icon": "truck"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "api-reference/openapi.yaml",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "tab": "Help Center",
+        "icon": "help-circle",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
+          },
+          {
+            "group": "FAQs",
+            "icon": "help-circle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Getting Started",
+                "path": "help-center/faq/getting-started"
+              }
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "icon": "alert-triangle",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Login Issues",
+                "path": "help-center/troubleshooting/login-issues"
+              }
+            ]
+          },
+          {
+            "group": "Guides",
+            "icon": "book-open",
+            "expandable": false,
+            "pages": [
+              {
+                "title": "Create New Listing",
+                "path": "help-center/guides/create-new-listing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}

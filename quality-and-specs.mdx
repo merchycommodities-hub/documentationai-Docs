@@ -1,0 +1,191 @@
+---
+title: Quality and Product Specifications
+description: Understand the standards, quality controls, and material characteristics behind Merchy Commodities products. This page helps buyers evaluate consistency, safety, and export suitability.
+---
+
+## Overview
+
+Merchy Commodities focuses on coconut charcoal briquettes that are prepared for export-oriented markets. On this page, you learn how raw material selection, quality control, natural ingredients, ash color, odor, and export standards work together to shape product consistency.
+
+Use this guide as a starter template for your own documentation. You can adapt the checks, thresholds, and packaging details to match your actual production process and buyer requirements.
+
+<Callout kind="info">
+
+This is a starter kit template. Treat the values, process notes, and examples as editable documentation content, not as final product claims.
+
+</Callout>
+
+## Quality Principles
+
+You improve product consistency by defining a few clear standards and applying them at every stage of production. For coconut charcoal briquettes, the most important principles are raw material purity, stable shaping, clean combustion, and predictable packaging.
+
+<Columns cols={3}>
+  <Card title="Raw Material Control" icon="database" href="#raw-material-selection">
+    Select clean coconut shell feedstock with consistent dryness and low contamination.
+  </Card>
+  <Card title="Natural Composition" icon="leaf" href="#natural-ingredients">
+    Keep the formula simple so the finished briquettes remain uniform and easy to evaluate.
+  </Card>
+  <Card title="Export Suitability" icon="ship" href="#export-standards">
+    Match product checks to the expectations of international buyers and shipment handling.
+  </Card>
+</Columns>
+
+### What Buyers Usually Review
+
+Buyers often compare visual appearance, moisture stability, odor during use, ash behavior, and packaging condition. They also ask whether you can keep the same specification from one order to the next.
+
+| Evaluation Area | What to Check | Why It Matters |
+|---|---|---|
+| Raw material | Shell source, cleanliness, and traceability | Supports consistent output |
+| Odor | Neutral smell during storage and use | Improves end-user experience |
+| Ash color | Light, natural ash after burning | Indicates cleaner combustion |
+| Packaging | Sealed, intact, and labeled cartons or bags | Reduces damage in transit |
+| Export readiness | Documents and shipping coordination | Helps buyers plan inventory |
+
+## Raw Material Selection
+
+You start with coconut shell material that is clean, dry, and suitable for briquette production. The goal is to reduce unwanted impurities before carbonization and shaping begin.
+
+<Steps>
+  <Step title="Source the shells" icon="download">
+    Choose coconut shell feedstock from reliable suppliers and inspect it for dirt, sand, and mixed debris.
+  </Step>
+  <Step title="Sort and clean" icon="settings">
+    Remove foreign material so the feedstock is easier to process and more consistent in the furnace.
+  </Step>
+  <Step title="Carbonize and cool" icon="zap">
+    Process the shells under controlled conditions, then cool the carbon completely before grinding.
+  </Step>
+  <Step title="Grind and screen" icon="check-circle">
+    Mill the char into a consistent particle size and screen out oversized fragments.
+  </Step>
+</Steps>
+
+<Callout kind="tip">
+
+If you document the source region, moisture condition, and screening method for each batch, you make buyer review easier and reduce follow-up questions.
+
+</Callout>
+
+## Quality Control Checks
+
+Quality control helps you keep each batch close to the same specification. A simple checklist is often enough for a starter documentation set, as long as you describe what you inspect and when you inspect it.
+
+<CodeGroup tabs="Checklist,CSV,JSON">
+  ```text
+Incoming batch inspection
+- Verify shell cleanliness
+- Check moisture condition
+- Confirm no mixed waste material
+- Record supplier name
+- Approve or reject the batch
+```
+  ```csv
+check_item,status,notes
+shell_cleanliness,pass,Low visible contamination
+particle_uniformity,pass,Screened before pressing
+odor,pass,Neutral after cooling
+packaging_integrity,pass,Cartons sealed
+```
+  ```json
+{
+  "batch_id": "MC-2026-08-014",
+  "quality_status": "pass",
+  "checks": [
+    "shell_cleanliness",
+    "particle_uniformity",
+    "odor",
+    "packaging_integrity"
+  ]
+}
+```
+</CodeGroup>
+
+### Suggested Review Points
+
+You can structure inspection around production checkpoints:
+
+1. Incoming raw material inspection  
+2. Pre-carbonization sorting  
+3. Post-carbonization cooling and grinding  
+4. Pressing and shaping review  
+5. Final packing and shipment release  
+
+## Product Characteristics
+
+Clear product characteristics help buyers understand what they are evaluating. For this category, the most common points are odor, ash color, shape consistency, and burn behavior.
+
+<Tabs>
+  <Tab title="Odor" icon="help-circle">
+    The finished briquettes should have a neutral or minimal odor profile during storage and use. You should document any aroma that appears after ignition so buyers know what to expect.
+  </Tab>
+  <Tab title="Ash Color" icon="check">
+    Buyers often prefer a natural, light ash appearance after combustion. You can describe the expected ash tone in your product sheet and include photos when available.
+  </Tab>
+  <Tab title="Shape" icon="package">
+    Consistent shape makes packing and handling easier. You should note whether the product uses pillow, hexagonal, or custom forms, then keep the description aligned with actual output.
+  </Tab>
+  <Tab title="Burn Performance" icon="fire">
+    Stable heat output and predictable burn time are useful specification points. Keep your documentation descriptive and avoid unsupported numerical claims unless you can verify them.
+  </Tab>
+</Tabs>
+
+## Export Standards
+
+Export readiness is not only about product quality. You also need clear communication, reliable packaging, and consistent documentation. Buyers generally expect the product to match the agreed specification across multiple shipments.
+
+<CodeGroup tabs="Bash,Python">
+  ```bash
+export PRODUCT_NAME="Merchy Commodities Coconut Charcoal Briquettes"
+export QUALITY_LEVEL="export-grade"
+export PACKAGING="sealed cartons"
+echo "Preparing shipment documents for ${PRODUCT_NAME}"
+```
+  ```python
+shipment = {
+    "product_name": "Merchy Commodities Coconut Charcoal Briquettes",
+    "quality_level": "export-grade",
+    "packaging": "sealed cartons",
+    "destination": "international buyer"
+}
+
+print("Prepared shipment summary:", shipment)
+```
+</CodeGroup>
+
+### Documentation You Should Maintain
+
+- Batch identification records  
+- Inspection results  
+- Packaging specification sheets  
+- Shipping and handling notes  
+- Buyer approval comments  
+
+<Expandable title="Advanced specification notes" default-open="false">
+
+You can extend your documentation with technical details such as moisture range, ash percentage, compression strength, and carton dimensions. Keep every value traceable to an actual test method or internal standard.
+
+</Expandable>
+
+## Practical Buyer Checklist
+
+Before you approve a purchase order, make sure your documentation answers these questions:
+
+- Is the raw material source defined?
+- Does the batch follow the same quality control steps every time?
+- Are the briquettes presented with a natural appearance and low odor?
+- Is the ash color described clearly enough for buyer review?
+- Do the packaging and shipment notes support export handling?
+
+<Callout kind="success">
+
+A good specification page reduces confusion, helps you respond faster to inquiries, and supports smoother export conversations.
+
+</Callout>
+
+## Summary
+
+You should keep this page simple, factual, and easy to update. A strong starter template explains the process, defines the product characteristics, and leaves room for your team to add exact measurements, test results, and market-specific requirements later.
+
+If you want to expand this page, add a sample test report, a packaging diagram, or a shipment checklist that matches your internal workflow.
